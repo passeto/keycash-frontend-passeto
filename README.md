@@ -76,6 +76,15 @@ more specific settings, I recommend this link
    or
    \$ yarn react-native run-ios (IPHONE)
 
+## Generate APK
+
+sh
+\$ cd keycash-frontend-passeto
+
+    sh
+
+\$ cd android && ./gradlew assembleRelease
+
 <!-- Create by: -->
 
 ## Who's behind this?

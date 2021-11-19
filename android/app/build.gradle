@@ -152,11 +152,11 @@ android {
             keyPassword 'android'
         }
          release {
-            if (project.hasProperty('PALACIO_UPLOAD_STORE_FILE')) {
-                storeFile file(PALACIO_UPLOAD_STORE_FILE)
-                storePassword PALACIO_UPLOAD_STORE_PASSWORD
-                keyAlias PALACIO_UPLOAD_KEY_ALIAS
-                keyPassword PALACIO_UPLOAD_KEY_PASSWORD
+            if (project.hasProperty('KEYCASH_UPLOAD_STORE_FILE')) {
+                storeFile file(KEYCASH_UPLOAD_STORE_FILE)
+                storePassword KEYCASH_UPLOAD_STORE_PASSWORD
+                keyAlias KEYCASH_UPLOAD_KEY_ALIAS
+                keyPassword KEYCASH_UPLOAD_KEY_PASSWORD
             }
         }
     }
