@@ -96,7 +96,7 @@ const Product = ({ navigation, route }) => {
                 thousandSeparator={"."}
                 decimalSeparator={","}
                 prefix={'R$ '}
-                renderText={value => <Text color="tertiary" weight="large">{`${value},00`}</Text>}
+                renderText={value => <Text color="tertiary" weight="medium">{`${value},00`}</Text>}
               /> 
             </View>
           </View>
