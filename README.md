@@ -85,6 +85,10 @@ sh
 
 \$ cd android && ./gradlew assembleRelease
 
+## APK
+
+[APK](https://github.com/passeto/keycash-frontend-passeto/blob/main/assets/apk/app-release.apk)
+
 <!-- Create by: -->
 
 ## Who's behind this?
